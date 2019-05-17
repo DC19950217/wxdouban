@@ -1,0 +1,7 @@
+<view class="searchbar">
+<!-- <navigator url='/pages/search/search' class='search-navigator'></navigator> -->
+<view class='search-input-group'>
+<input class='search-input' placeholder='搜索' ></input>
+</view>
+
+</view>

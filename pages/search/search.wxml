@@ -1,0 +1,3 @@
+<!--pages/search/search.wxml-->
+<searchbar></searchbar>
+<text>搜索栏</text>

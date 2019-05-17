@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<searchbar isnavigator="{{true}}"></searchbar>
+<!-- 电影 -->
+<indexmodule moreurl="/pages/list/list?type=movie" title="电影" items="{{movies}}" type="movie" ></indexmodule>
+<!-- <view class='module-group'>
+  <view class='module-top'>
+    <view class='module-title'>电影</view>
+    <navigator class='module-more'>更多</navigator>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x="{{true}}">
+    <navigator wx:for="{{movies}}" wx:key="{{item.title}}" class='item-navigator'>
+      <view class='item-group'>
+        <view class='thumbnail-group'>
+          <image src='{{item.cover.url}}' class='thumbnail'></image>
+        </view>
+        <view class='item-title'>{{item.title}}</view>
+    <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view> -->
+<!-- 电视 -->
+<indexmodule moreurl="/pages/list/list?type=tv" title="电视剧" items="{{tvs}}" type="tv"></indexmodule>
+<!-- <view class='module-group'>
+  <view class='module-top'>
+    <view class='module-title'>电视</view>
+    <navigator class='module-more'>更多</navigator>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x="{{true}}">
+    <navigator wx:for="{{tvs}}" wx:key="{{item.title}}" class='item-navigator'>
+      <view class='item-group'>
+        <view class='thumbnail-group'>
+          <image src='{{item.cover.url}}' class='thumbnail'></image>
+        </view>
+        <view class='item-title'>{{item.title}}</view>
+    <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view> -->
+<!-- 综艺 -->
+<indexmodule moreurl="/pages/list/list?type=show" title="综艺" items="{{shows}}" type="show"></indexmodule>
+<!-- <view class='module-group'>
+  <view class='module-top'>
+    <view class='module-title'>综艺</view>
+    <navigator class='module-more'>更多</navigator>
+  </view>
+  <scroll-view class='module-scroll-view' scroll-x="{{true}}">
+    <navigator wx:for="{{shows}}" wx:key="{{item.title}}" class='item-navigator'>
+      <view class='item-group'>
+        <view class='thumbnail-group'>
+          <image src='{{item.cover.url}}' class='thumbnail'></image>
+        </view>
+        <view class='item-title'>{{item.title}}</view>
+    <stars rate="{{item.rating.value}}"></stars>
+      </view>
+    </navigator>
+  </scroll-view>
+</view> -->

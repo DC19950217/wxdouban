@@ -1,0 +1,80 @@
+/* pages/detail/detail.wxss */
+.item-header{
+  padding: 60rpx 30rpx;
+}
+.item-header .item-title{
+  font-size: 50rpx;
+}
+.item-header .item-detail{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.item-detail .left-defail{
+  flex: 1;
+  margin-right: 20rpx;
+}
+.left-defail .item-rate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-rate .comment-persons{
+  font-size: 28rpx;
+  color: #ccc;
+  margin-left: 20rpx;
+}
+.item-detail .right-defail{
+  width: 200rpx;
+  height: 300rpx;
+}
+.right-defail image{
+  width: 100%;
+  height: 100%;
+}
+.item-sub-defail{
+  margin-top: 40rpx;
+  font-size: 32rpx;
+}
+.item-sub-defail view{
+  margin-bottom: 16rpx;
+}
+
+.item-tags{
+  padding: 0 30rpx;
+}
+.item-tags .item-tags-title{
+  color: #007722;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.item-tags .item-tags-list{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.item-tags-list text{
+  padding: 10rpx,20rpx;
+  background-color: #9fd3e7;
+  font-size: 32rpx;
+  color: #3377AA;
+  text-align: center;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.comment-list-group{
+  padding: 60rpx 30rpx;
+}
+.comment-list-group .comment-title{
+  font-size: 32rpx;
+  color: #007722;
+}
+
+.more-comment{
+  text-align: center;
+  font-size: 36rpx;
+  color: #41be57;
+  margin-bottom: 60rpx;
+}

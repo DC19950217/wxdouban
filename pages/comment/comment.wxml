@@ -1,0 +1,10 @@
+<!--pages/comment/comment.wxml-->
+<view class='container'>
+  <view class='item-group' bindtap='onItemTapEvent'>
+    <image src='{{thumbnail}}' class='thumbnail'></image>
+    <text class='item-title'>{{title}}</text>
+    <text class='item-rate'>{{rate}}分</text>
+  </view>
+  <view class='comment-title'>全部影评({{total}})</view>
+  <onecomment wx:for="{{comments}}" item="{{item}}" wx:key="*this"></onecomment>
+</view>

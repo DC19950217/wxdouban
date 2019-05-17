@@ -1,0 +1,5 @@
+/* pages/test/test.wxss */
+.testheight{
+  height: 800px;
+  width: 100%;
+}
